@@ -1,4 +1,8 @@
-﻿namespace HierarchyRegexRenamer
+﻿///-----------------------------------
+/// HierarchyRegexRenamer
+/// @ 2017 RNGTM(https://github.com/rngtm)
+///-----------------------------------
+namespace HierarchyRegexRenamer
 {
     using System.Collections;
     using System.Collections.Generic;

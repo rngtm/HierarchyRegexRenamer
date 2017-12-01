@@ -1,3 +1,7 @@
+///-----------------------------------
+/// HierarchyRegexRenamer
+/// @ 2017 RNGTM(https://github.com/rngtm)
+///-----------------------------------
 namespace HierarchyRegexRenamer
 {
     /// <summary>

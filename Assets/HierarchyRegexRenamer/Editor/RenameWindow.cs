@@ -1,19 +1,14 @@
-﻿namespace HierarchyRegexRenamer
+﻿///-----------------------------------
+/// HierarchyRegexRenamer
+/// @ 2017 RNGTM(https://github.com/rngtm)
+///-----------------------------------
+namespace HierarchyRegexRenamer
 {
     using UnityEngine;
     using UnityEditor;
     using UnityEditorInternal;
     using System.Linq;
     using System.Text.RegularExpressions;
-
-    /// TODO: プリセット機能実装 
-    /// 名前, 置換, ボタンを押したらプリセットロード
-    /// プリセットをWindow上から追加・削除できるようにする
-    /// プリセットはScriptableObjectではなく、テキストデータで管理
-    /// テキストデータの整合性チェック
-    /// 左右にウィンドウを分割して片方はリネームウィンドウ、もう片方はプリセット選択領域にする
-    /// セーブボタンをつける
-    /// プリセットから直接リネームできるようにする
 
     public class RenameWindow : EditorWindow
     {
